@@ -62,6 +62,13 @@ Email-Feedbak/
 ## 🔗 Live Demo
 👉 https://anuj-789.github.io/Email-Feedback/
 
+### 🔗 Connect with Me
+
+[![💼 LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/anuj-k-549184327)
+[![🐙 GitHub](https://img.shields.io/badge/-GitHub-gray?style=for-the-badge&logo=github)](https://github.com/Anuj-789)
+[![✉️ Email](https://img.shields.io/badge/-Email-red?style=for-the-badge&logo=gmail)](mailto:anuj437795@example.com)
+
+
 
 
 
