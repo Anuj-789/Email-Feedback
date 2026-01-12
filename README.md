@@ -38,9 +38,9 @@
     <li>Works smoothly on mobile, tablet, and desktop</li>
   </ul>
 
-  🛠️ Technologies Used
+ <h2>🛠️ Technologies Used</h2>
 
-<h2>HTML5</h2>
+<ul>HTML5</ul>
 
 <ul>CSS3 (Animations, Variables, Flexbox)</ul>
 
@@ -48,12 +48,16 @@
 
 <ul>EmailJS (Client-side email service)</ul>
 
-<h3>Email-Feedbak/</h3>
+  <h2>📂 Project Structure</h2>
+
+  <pre>
+Email-Feedbak/
 │
-├── <h5>index.html </h5>       # Main HTML file
-├──<h5> style.css  </h5>        # All styles (UI, animations, themes)
-├── <h5>email.js    </h5>       # JavaScript (EmailJS, modal, interactions)
-├── <h5>README.md    </h5>      # Project documentation
+├── index.html        - Main HTML file
+├── style.css         - Styling & animations
+├── email.js          - EmailJS & JavaScript logic
+├── README.md         - Documentation
+  </pre>
 
 ## 🔗 Live Demo
 👉 https://YOUR-USERNAME.github.io/Email-Feedbak/
