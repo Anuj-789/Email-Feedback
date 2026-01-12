@@ -33,6 +33,20 @@ body{
   overflow:hidden;
 }
 
+.made-by{
+  position: fixed;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  padding: 6px 14px;
+  border-radius: 20px;
+ 
+  backdrop-filter: blur(6px);
+  color: var(--text);
+  z-index: 100;
+}
+
 
 .particles span{
   position:absolute;
@@ -167,4 +181,5 @@ button.submit:hover{transform:translateY(-2px);}
 }
 @media(min-width:1024px){
   .box{max-width:460px;}
+
 }
