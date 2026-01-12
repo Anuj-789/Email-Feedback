@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3D Feedback Popup</title>
+<link rel="stylesheet" href="style.css">
+//connect emailjs 
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<style>
+
+
+</style>
+</head>
+
+<body>
+
+
+<div class="particles">
+  <span style="left:10%;animation-duration:12s"></span>
+  <span style="left:30%;animation-duration:9s"></span>
+  <span style="left:50%;animation-duration:14s"></span>
+  <span style="left:70%;animation-duration:11s"></span>
+  <span style="left:90%;animation-duration:13s"></span>
+</div>
+
+<div class="toggle" onclick="toggleTheme()">🌙 / ☀️</div>
+
+<button id="openBtn">Give Feedback ⭐</button>
+
+<div class="modal" id="modal">
+  <div class="box" id="card">
+    <div class="close" onclick="closeModal()">✖</div>
+
+    <form id="ratingForm">
+      <h2>Rate Our Service</h2>
+
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+
+      <div class="stars">
+        <input type="radio" name="rating" id="s5" value="5" required><label for="s5">★</label>
+        <input type="radio" name="rating" id="s4" value="4"><label for="s4">★</label>
+        <input type="radio" name="rating" id="s3" value="3"><label for="s3">★</label>
+        <input type="radio" name="rating" id="s2" value="2"><label for="s2">★</label>
+        <input type="radio" name="rating" id="s1" value="1"><label for="s1">★</label>
+      </div>
+
+      <textarea name="message" placeholder="Your Feedback" required></textarea>
+      <button type="submit" class="submit">Submit</button>
+    </form>
+
+    <div class="success" id="successBox">
+      <span>✅</span>
+      Feedback Submitted<br>Thank You!
+    </div>
+  </div>
+</div>
+
+
+<script src="email.js"></script>
+</body>
+</html>
